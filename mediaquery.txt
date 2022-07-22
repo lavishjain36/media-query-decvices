@@ -1,0 +1,83 @@
+Media Query:
+Normal css property 
+
+
+You should include media queries.
+Media Query are the backbone of responsive web design.WIth this one can get
+responsive web design on different divices.
+
+syntax:
+@media not|only (media-type) and expressions{
+
+//css code
+}
+
+operator=>not,only ,and =>to create certain condition.
+
+media type:
+1all:used for all the devices.
+2.print:printing
+3.screen->computer,tablet and mobile devices.
+4.speech:(screen reader)
+
+
+
+expression:
+for typical mobile device:
+320px to 450px
+@media only screen and (min-width:320px)and (max-width:450px){
+//css code 
+
+}
+
+landscape:
+480px to 760px=>width 
+@media only screen and (min-width:480px) and (max-width:760px){
+//css code
+}
+
+for tablet: 760 px to 980px
+small desktop: 980 px to 1023px
+for typiCAL DESKTOP :1024PX TO 1200px
+
+larger screen=>min-width:1200px
+
+
+
+@media print
+@media speech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
